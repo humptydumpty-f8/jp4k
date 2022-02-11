@@ -11,7 +11,7 @@ public class ex2_2 {
 
 //        Приклад 2.
 //        int x =10;
-//        System.out.printf("%d%n%o%n%X", x, x,x);
+//        System.out.printf("%d%n%o%n%x", x, x,x);
 
 //
 //        Приклад 3.

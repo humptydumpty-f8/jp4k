@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ex5_1 {
     public static void main(String[] args) {
         //Введення даних
-        try(PrintStream printStream = new PrintStream("C:\\Users\\Admin\\IdeaProjects\\tkpz\\src\\kpi\\apeps\\lec3\\demoPrintStream.txt"))
+        try(PrintStream printStream = new PrintStream("C:\\Users\\Admin\\IdeaProjects\\jp4k\\src\\lec3\\demoPrintStream.txt"))
         {
             printStream.print("Hello World!\n");
             printStream.println("Welcome to Java!");
@@ -25,7 +25,7 @@ public class ex5_1 {
         }
         //Виведення даних
         System.out.println("\nFile contents:");
-        try (Scanner scanner = new Scanner(Path.of("C:\\Users\\Admin\\IdeaProjects\\tkpz\\src\\kpi\\apeps\\lec3\\demoPrintStream.txt")))
+        try (Scanner scanner = new Scanner(Path.of("C:\\Users\\Admin\\IdeaProjects\\jp4k\\src\\lec3\\demoPrintStream.txt")))
         {
             do {
                 System.out.println(scanner.nextLine());

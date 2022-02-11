@@ -12,6 +12,7 @@ public class ex7_1 {
         Console cons = System.console();
         String username = cons.readLine ( "User name: ");
         char [] passwd = cons.readPassword ( "Password: ") ;
+
         System.out.println("User name: " + username);
         System.out.println("Password: " + new String(passwd));
     }
